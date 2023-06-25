@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NSO PP Software Development Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="NSOSWDP.css"> 
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+
+
+
+
+.creds2{
+
+/* margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: center;*/
+ 
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+	display: inline-block;
+    margin:0px auto 0px auto;
+/*  float: left;*/
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+
+		 <a href= "file:///Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/NSOWP.html"><img src="Studio-Project.png"  alt="Ndifreke Okon logo" width="60px" height="60px" style="float: center;"></a>
+			  <!-- add a button to the header that will reroute the end user to the home page or the top of the page if scrolling is neccessary -->
+		<div id="nav">
+ 
+  <!-- Determine how to associate the location of the the project button to the dropdown-content class or mydropdown id -->
+	
+
+
+
+  <ul>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Projects</a>
+    <div class="dropdown-content">
+     <a href="#" class="tablinks" onclick="mySWD()">Software Development</a>
+    <a href="#" class="tablinks" onclick="myVolunteer()">Community Involvement</a>
+    <a href="#" class="tablinks" onclick="myBlog()">Blog</a>
+    <a href="#" class="tablinks" onclick="myPhotos()">Photo Gallery</a>
+     <a href="#" class="tablinks" onclick="myWelcomePage()">Home Page</a>
+    
+    </div>
+
+      <li><a href="#" class="tablinks" onclick="myBio()">Biography</a></li>
+  <li><a href="#" class="tablinks" onclick="myResume()">Resume'</a></li>
+  <li><a href="#" class="tablinks" onclick="myContact()">Contact</li>
+  </li>
+</ul>
+
+   <!-- <img src="/Users/Ndifreke/Desktop/Ndifreke Okon Professional Profile Website/NSO PP IMAGES/NSO BRAND LOGO.png" alt="Ndifreke Okon logo" width="31px" height="30px" style="float: left;" /> -->
+
+
+
+
+</div>
+
+<script>
+function mySWD() {
+  location.href="file:///Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/NSOSWDP.html";
+}
+
+function myVolunteer() {
+  location.href="file:///Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/NSOV.html";
+}
+
+function myBio() {
+  location.href="file:///Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/NSOBP.html";
+}
+
+function myResume(){
+  location.href="file:///Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/NSOR.html";
+}
+
+function myContact(){
+  location.href="file:///Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/NSOCP.html";
+}
+
+function myWelcomePage(){
+  location.href="file:///Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/NSOWP.html";
+}
+
+function myBlog() {
+  location.href="file:///Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/NSOBLOGP.html";
+}
+
+function myPhotos() {
+  location.href="file:///Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/NSOPGP.html";
+}
+
+</script>
+
+
+
+
+
+</div>
+
+			</div>
+		</div>
+	</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="/w3images/avatar_g2.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO SUMMARY</b></h4>
+    <p class="w3-text-grey">Ndifreke S. Okon</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b style="color: black; text-shadow: 2px 2px 5px whitesmoke;">My Portfolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Web Design</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Software Programs</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Mobile Applications</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/_MG_4653.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Website Demo 1</b></p>
+        <p>Coming Soon.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/_MG_4653.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Website Demo 2</b></p>
+        <p>Coming Soon.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="/Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/_MG_4653.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Website Demo 3</b></p>
+        <p>Coming Soon.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/_MG_4653.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Software Progam Demo 1</b></p>
+        <p>Coming Soon.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/_MG_4653.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Software Progam Demo 2</b></p>
+       <p>Coming Soon.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="/Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/_MG_4653.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+         <p><b>Software Progam Demo 3</b></p>
+       <p>Coming Soon.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="/Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/NSOSWD.jpg" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="/Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT//DSC07470.jpg" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>Hi, I am Ndifreke S. Okon, building a career providing solutions through Professional Services, and information technology. I enjoy writing code and project management in addition to blogging and photography. I want to share my world with you. I work as a freelance software developer and project managmememnt professional. If you have a need or would like to schedule a consult check out the prices below, and schedule a consult.  This is my purpose, and it would be an honor to work with you providing solutions.</p>
+    <hr>
+    
+    <h4>Technical Skills</h4>
+    <!-- Progress bars / Skills -->
+    <p>Software Development</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">99%</div>
+    </div>
+    <p>Web Design</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">95%</div>
+    </div>
+    <p>Mobile Application Design</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">96%</div>
+    </div>
+   <p>Project Manamagment</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">97%</div>
+    </div>
+    <hr>
+    
+    <h4 style="color: black;">How much I charge</h4>
+    <!-- Pricing Tables -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32" style="color: white; text-shadow: 2px 2px 5px black;">WEBSITE DEVELOPER</li>
+          <li class="w3-padding-16">Freelance</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Front End</li>
+          <li class="w3-padding-16">Responsive Web Site</li>
+          <li class="w3-padding-16">
+            <h2>$ 50</h2>
+            <span class="w3-opacity">per hour</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black" style="color: white; text-shadow: 2px 2px 5px black;">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-teal w3-xlarge w3-padding-32" style="color: white; text-shadow: 2px 2px 5px black;">PROJECT MANAGER</li>
+          <li class="w3-padding-16">Freelance</li>
+          <li class="w3-padding-16">Project Managment Professional</li>
+          <li class="w3-padding-16">Agile/ Lean/ Waterfall</li>
+          <li class="w3-padding-16">Administrative Support/ SDLC/ PMBOK</li>
+          <li class="w3-padding-16">
+            <h2>$ 46</h2>
+            <span class="w3-opacity">per hour</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black" style="color: white; text-shadow: 2px 2px 5px black;">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32" style="color: white; text-shadow: 2px 2px 5px black;">SOFTWARE DEVELOPER</li>
+          <li class="w3-padding-16">Freelance</li>
+          <li class="w3-padding-16">Software Developer</li>
+          <li class="w3-padding-16">App Development</li>
+          <li class="w3-padding-16">Program Development</li>
+          <li class="w3-padding-16">Social Media Content Managment</li>
+          <li class="w3-padding-16">
+            <h2>$ 55</h2>
+            <span class="w3-opacity">per hour</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black" style="color: white; text-shadow: 2px 2px 5px black;">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b style="color: white; text-shadow: 2px 2px 5px black;">Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p style="color: white; text-shadow: 2px 2px 5px black;">NDIFREKESYLVANUSOKON@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p style="color: white; text-shadow: 2px 2px 5px black;">UNITED STATES OF AMERICA</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p style="color: white; text-shadow: 2px 2px 5px black;">(832)704-7673</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="https://formsubmit.co/NDIFREKESYLVANUSOKON@gmail.com" method="POST">
+      <div class="w3-section">
+        <label style="color: white; text-shadow: 2px 2px 5px black;">Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label style="color: white; text-shadow: 2px 2px 5px black;">Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label style="color: white; text-shadow: 2px 2px 5px black;">Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third" style="color: white; text-shadow: 2px 2px 5px black;">
+      <h3 style="color: white;">NDIFREKE S. OKON <br>
+      CORE VALUES:</h3>
+      <p style="color: white;">"SACRIFICE, DISCIPLINE, RESULTS."</p>
+      <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p> -->
+    </div>
+  
+    <div class="w3-third" style="color: white; text-shadow: 2px 2px 5px black;">
+      <h3 style="color: white;">EXPLORE WITH <br>
+      NDIFREKE S. OKON</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/IMG_4646.JPG" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large" style="color: white; text-shadow: 2px 2px 5px black;">PHOTOGRAPHY</span><br>
+          <span style="color: white; text-shadow: 2px 2px 5px black;">"MOMENTS IN TIME"</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/Users/Ndifreke/Desktop/NSO PP WEBSITE PROJECT/whitehousephoto.png" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large" style="color: white; text-shadow: 2px 2px 5px black;">BLOG</span><br>
+          <span style="color: white; text-shadow: 2px 2px 5px black;">PAGE<br>
+          NDIFREKE S. OKON</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3 style="color: white; text-shadow: 2px 2px 5px black;">POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Software Development</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Project Management</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">UXUI</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Technology</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Program</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Application</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Developer</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Infrastructure</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Algorithm</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Data Structure</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">SQL</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Python</span>
+            <span class="w3-tag w3-grey w3-small w3-margin-bottom">Programming Language</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Markup Language</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">HTML/ CSS</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">C++</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">C#</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <!-- <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div> -->
+
+	<div id="footer" class="grid_12">
+
+
+		<!-- <p>&copy; Copyright 2011</p> -->
+
+	<a href="http://www.habitat.org/how/" style="color: white;"> Contact </a>  | 
+<a href="http://www.habitat.org/intl/" style="color: white;"> Sitemap </a>  | 
+<a href="http://www.habitat.org/stories_multimedia/" style="color: white;"> Resume' </a><br/>
+<p style="position: relative; bottom: 0; width: 100%; text-align: center; font-size: 10px;" >&#169;2014 Habitat for Humanity&#174; International. All rights reserved. "Habitat for Humanity&#174;" is a registered service mark owned by Habitat for Humanity International. Habitat&#174; is a service mark of Habitat for Humanity International.</p> 
+
+	</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
